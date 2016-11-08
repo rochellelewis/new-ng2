@@ -27,9 +27,9 @@ NOTE: Do NOT add typings like in the screencast.
  - Create `app/polyfills.ts`- boilerplate code
  - Create `app/app.css` - you can leave this blank for now. All your custom CSS will be written here.
  - Create `app/app.ts` - boilerplate code
- - Create `app/app.module.ts` - boilerplate code
- - Create `app/app.component.ts` - Now **update your *selector* here** with your app name. See the *custom tag* you put inside your webpack/index.php file!
- - Create `app/app.routes.ts` - **Update these routes for YOUR app!** (We're just sticking to the splash page here for now!)
+ - Create `app/app.module.ts` - *Mostly* boilerplate code, but you'll need to update this later on. We're removing all references to non-existent Services here for now!
+ - Create `app/app.component.ts` - Now **update your *selector* here** with your app name. Remember the *custom tag* you put inside your webpack/index.php file? Well, they need to MATCH! Now, also update the `templateUrl` filename to be "*yourappname*-app.php". We'll create and update this file a little later. 
+ - Create `app/app.routes.ts` - **Update these routes for YOUR app!** (We're just sticking to the splash/home page here for now. We removed any and all references to any other Components other than the SplashComponent.)
 
 8. Create the `app/components` directory and create your app "Components" in here
  - Create `splash-component.ts` (We're stripping out all that pesky logic for now and keeping this bare bones here. See our sample code.)
