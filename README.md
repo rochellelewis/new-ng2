@@ -12,10 +12,9 @@ your Angular, TypeScript and Node plugins are installed/activated in PhpStorm. O
 2. Add `package.json` boilerplate code, and **update the relevant fields for YOUR project**.
 3. `cd` into your project directory and run `npm install` both on your laptop (hereafter referred to as "**locally**") AND on your bootcamp-coders.cnm.edu deployment (henceforth referred to as "**remote**")
 4. Add `tsconfig.json` boilerplate
-
 NOTE: Do NOT add typings like in the screencast.
 
-5. Add `.bootstraprc` Flip the scripts to TRUE, dammit! (Tsk, tsk!)
+5. Add `.bootstraprc` Flip the scripts to TRUE, dammit! (jQuery is our FRIEND, Dylan!)
 
 6. Create the `/webpack` directory in the project root, and now we'll create all your webpack files!
  - Create `helpers.js` - boilerplate code
@@ -35,7 +34,7 @@ NOTE: Do NOT add typings like in the screencast.
 8. Create the `app/components` directory and create your app "Components" in here
  - Create `splash-component.ts` (We're stripping out all that pesky logic for now and keeping this bare bones here. See our sample.)
 
- ### -- Ok. All your TypeScript "transpiling" should now resolve! --
+### -- Ok. All your TypeScript "transpiling" should now resolve! --
 
 9. Create your `/public_html/templates` directory
  - Create your base template HTML: `yourapp-app.php`
