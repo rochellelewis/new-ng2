@@ -28,13 +28,12 @@ NOTE: Do NOT add typings like in the screencast.
  - Create `app/app.css` - you can leave this blank for now. All your custom CSS will be written here.
  - Create `app/app.ts` - boilerplate code
  - Create `app/app.module.ts` - boilerplate code
- - Create `app/app.component.ts` - Now **update** your *selector* here with your app name. See the *custom tag* you put inside your webpack/index.php file!
- - Create `app/app.routes.ts` - **Update** these routes for YOUR app! (We're just sticking to the splash page here for now!)
+ - Create `app/app.component.ts` - Now **update your *selector* here** with your app name. See the *custom tag* you put inside your webpack/index.php file!
+ - Create `app/app.routes.ts` - **Update these routes for YOUR app!** (We're just sticking to the splash page here for now!)
 
 8. Create the `app/components` directory and create your app "Components" in here
- - Create `splash-component.ts` (We're stripping out all that pesky logic for now and keeping this bare bones here. See our sample.)
-
-**~~ Ok. All your TypeScript "transpiling" should now resolve! ~~**
+ - Create `splash-component.ts` (We're stripping out all that pesky logic for now and keeping this bare bones here. See our sample code.)
+ - **NOTE: All your TypeScript "transpiling" should now resolve! ~~**
 
 9. Create your `/public_html/templates` directory
  - Create your base template HTML: `yourapp-app.php`
@@ -42,4 +41,4 @@ NOTE: Do NOT add typings like in the screencast.
 
 10. add the `.htaccess` file to /public_html - boilerplate code
 
-** Run `npm run build` both locally and remote and you should be good to go!**
+**Run `npm run build` both locally and remote and you should be good to go!**
