@@ -20,7 +20,7 @@ NOTE: Do NOT add typings like in the screencast.
  - Create `helpers.js` - boilerplate code
  - Create `webpack.common.js` - boilerplate code
  - Create `webpack.live.js` - boilerplate code
- - Create the `index.php` HTML template. Update the custom tag here with your app name!
+ - Create the `index.php` HTML template. **Update the custom tag here with your app name**!
 
 7. Create the `/app` directory, and we'll add all your app files in here boo.
  - Create `app/vendor.ts` - boilerplate code. (Please vote YES to TypeScript compiling in PhpStorm)
@@ -34,7 +34,7 @@ NOTE: Do NOT add typings like in the screencast.
 8. Create the `app/components` directory and create your app "Components" in here
  - Create `splash-component.ts` (We're stripping out all that pesky logic for now and keeping this bare bones here. See our sample.)
 
-### -- Ok. All your TypeScript "transpiling" should now resolve! --
+**~~ Ok. All your TypeScript "transpiling" should now resolve! ~~**
 
 9. Create your `/public_html/templates` directory
  - Create your base template HTML: `yourapp-app.php`
@@ -42,4 +42,4 @@ NOTE: Do NOT add typings like in the screencast.
 
 10. add the `.htaccess` file to /public_html - boilerplate code
 
-### Run `npm run build` both locally and remote and you should be good to go!
+** Run `npm run build` both locally and remote and you should be good to go!**
